@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(value = "helloworld")
 @RequiredArgsConstructor
-@Tag(name = "Personal", description = "Profile eieiza")
+@Tag(name = "Helloworld", description = "Profile eieiza")
 public class HelloWorldController {
 
     private final HelloWorldService helloWorldService;
